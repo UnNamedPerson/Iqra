@@ -8,12 +8,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href = "mainDesign.css">
     <title>IQRA</title>
+
+    <!-- <style>
+        div.heaingRow{
+              /* sticky element rules */
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            display: flex;
+            align-items: flex-start;
+            padding: 50px;
+            background-color: rgb(14, 158, 224);
+        }
+
+    </style> -->
+
+
 </head>
 
 <body id="HomePage">
-        <h1 id="IQRA">
-                IQRA
-        </h1>
+
+    <div class = "headingRow" id="mainHeading">
+        <!-- <div class="headingCol"> -->
+            <h1 id="IQRA">
+                Hi10
+            </h1>
+        <!-- </div> -->
+
+        <!-- <div class="headingCol"> -->
+            <img src = "hi10.jpg" class = "headingImage" style="width: 20%; height: 100%;">
+        <!-- </div> -->
+    </div>
+
     <div id="Home" class="tab">
         <h4>
             Home Page
@@ -38,11 +64,11 @@
 
     </div>
 
-    <button class="button" id="HomeButton" onclick="HomeTab('Home', this, 'rgb(82, 80, 80)')" >
+    <button class="button" id="HomeButton" onclick="HomeTab('Home', this, 'rgb(255, 255, 255)')" >
             Home
     </button>
-    <button class="button" onclick="showTab('Achievements', this, 'rgb(82, 80, 80)')">
-            Goals
+    <button class="button" onclick="showTab('Achievements', this, 'rgb(255, 255, 255)')">
+        Achievements
     </button>
     <h2></h2>
 
